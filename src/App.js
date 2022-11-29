@@ -5,6 +5,7 @@ import Images from './components/images';
 import List from './components/list';
 import RenderCond from './components/RenderCond';
 import Fragment from './components/Fragments';
+import Container from './components/Container';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       <List />
       <RenderCond x={10} y={5} />
       <Fragment />
+      <Container>
+        <h1>Container</h1>
+      </Container>
     </div>
   );
 }
