@@ -1,25 +1,15 @@
+import React from 'react';
 import './App.css';
-import FIrstComponent from './components/FirstComponente';
-import Hooks from './components/Hooks';
-import Images from './components/images';
-import List from './components/list';
-import RenderCond from './components/RenderCond';
-import Fragment from './components/Fragments';
-import Container from './components/Container';
+
+import { useState, useEffect } from 'react';
+import { BsTrash, BsBookMarkCheck, BsBookMarkChekFill } from 'react-icons/bs'
+
+const Api = "http://localhost:8090";
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello Word</h2>
-      <FIrstComponent />
-      <Images />
-      <Hooks />
-      <List />
-      <RenderCond x={10} y={5} />
-      <Fragment />
-      <Container>
-        <h1>Container</h1>
-      </Container>
+      <h1>Login</h1>
     </div>
   );
 }
